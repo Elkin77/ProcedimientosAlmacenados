@@ -9,5 +9,5 @@
 if(isset($_POST['consola'])){
     //Se crea el switch para saber que coloco y si no existe lo devuelve con un alert
     echo '<script>alert("'.$_POST['consola'].'")</script>';
-    header("location: index.php?c=".$_POST['consola']);
+    echo '<script language="javascript">window.location = "index.php?c='.$_POST['consola'].'";</script>';
 }

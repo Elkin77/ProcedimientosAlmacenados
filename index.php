@@ -26,8 +26,8 @@ and open the template in the editor.
         <div id="web">
             <form method="post" action="Control.php" id="form1" name="form1" onkeydown="javascript:tecla(event);">
                 <textarea id="consola" name="consola" cols="175" rows="41"><?php
-                    if(isset($_GET['c'])){
-                    echo $_GET['c'];
+                    if (isset($_GET['c'])) {
+                        echo $_GET['c'];
                     }
                     ?></textarea>
             </form>

@@ -30,3 +30,14 @@ and open the template in the editor.
         </div>
     </body>
 </html>
+
+<?php
+////$db = new dataBase();
+//$db->conectar();
+//$mysqli = new mysqli;
+//$resultado = 0;
+//$result = mysql_query("CALL usuarios()");
+//$datos;
+//while ($row1 = mysql_fetch_row($result)) {
+//    echo '<p>' . $row1[0] . ',' . $row1[1] . ',' . $row1[2] . ',' . $row1[3] . ',' . $row1[4] . ',' . $row1[5] . ',' . $row1[6] . ',' . $row1[7] . '</p>';
+//}?>

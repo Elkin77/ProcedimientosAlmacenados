@@ -8,7 +8,8 @@
 include 'dataBase.php';
 if (isset($_POST['consola'])) {
 //Se crea el switch para saber que coloco y si no existe lo devuelve con un alert
-    if ($_POST['consola'] == "puntos valorados") {
+    //Esto es una prueba de un puch
+	if ($_POST['consola'] == "puntos valorados") {
         include 'Ejecucion.php';
         $db = new dataBase();
         $db->conectar();
